@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		AA4F39C020FD41E90070AF85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4F39BF20FD41E90070AF85 /* AppDelegate.swift */; };
-		AA4F39C220FD41E90070AF85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4F39C120FD41E90070AF85 /* ViewController.swift */; };
 		AA4F39C520FD41E90070AF85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA4F39C320FD41E90070AF85 /* Main.storyboard */; };
 		AA4F39C720FD41EA0070AF85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA4F39C620FD41EA0070AF85 /* Assets.xcassets */; };
 		AA4F39CA20FD41EA0070AF85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA4F39C820FD41EA0070AF85 /* LaunchScreen.storyboard */; };
+		AA4F39D220FD41FA0070AF85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4F39D120FD41F90070AF85 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AA4F39BC20FD41E90070AF85 /* CoreAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA4F39BF20FD41E90070AF85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AA4F39C120FD41E90070AF85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AA4F39C420FD41E90070AF85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AA4F39C620FD41EA0070AF85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA4F39C920FD41EA0070AF85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA4F39CB20FD41EA0070AF85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA4F39D120FD41F90070AF85 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "../../../Downloads/lhl-20180328-w7d3-core-animation-master/CAAnimationDemo/ViewController.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				AA4F39BF20FD41E90070AF85 /* AppDelegate.swift */,
-				AA4F39C120FD41E90070AF85 /* ViewController.swift */,
+				AA4F39D120FD41F90070AF85 /* ViewController.swift */,
 				AA4F39C320FD41E90070AF85 /* Main.storyboard */,
 				AA4F39C620FD41EA0070AF85 /* Assets.xcassets */,
 				AA4F39C820FD41EA0070AF85 /* LaunchScreen.storyboard */,
@@ -135,7 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA4F39C220FD41E90070AF85 /* ViewController.swift in Sources */,
+				AA4F39D220FD41FA0070AF85 /* ViewController.swift in Sources */,
 				AA4F39C020FD41E90070AF85 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
